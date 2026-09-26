@@ -76,7 +76,7 @@ async function handleContact(request, response) {
         "content-type": "application/json"
       },
       body: JSON.stringify({
-        from: process.env.CONTACT_FROM || "MasterStudio2 Website <website@forms.masterstudio2.com>",
+        from: process.env.CONTACT_FROM || "MasterStudio2 Website <website@masterstudio2.com>",
         to: [process.env.CONTACT_TO || "contact@3rdbioai.com"],
         reply_to: message.email,
         subject: `MasterStudio2 — ${message.subject}`,
