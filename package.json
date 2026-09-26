@@ -1,0 +1,13 @@
+{
+  "name": "masterstudio2-contact",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "MasterStudio2 contact page and secure email intake",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

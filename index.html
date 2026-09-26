@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Contact MasterStudio2 for product support, order help, or questions about reference-matched audio mastering.">
+  <title>Contact MasterStudio2</title>
+  <style>
+    :root{--bg:#0c0d0d;--panel:#141515;--text:#f1eee6;--muted:#aaa69d;--line:#30302c;--gold:#e2b653;--gold2:#f0cf78;--max:1080px}*{box-sizing:border-box}html{color-scheme:dark;scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 78% 0,rgba(226,182,83,.12),transparent 31%),linear-gradient(180deg,#0e0f0f 0,#090a0a 100%);color:var(--text);font:400 16px/1.65 Inter,"Segoe UI",system-ui,sans-serif;min-height:100vh}.wrap{width:min(calc(100% - 40px),var(--max));margin:auto}a{color:inherit}.nav{height:82px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{text-decoration:none;font-weight:800;letter-spacing:.045em}.brand span{color:var(--gold)}.back{text-decoration:none;color:var(--muted);font-size:.84rem;font-weight:650}.back:hover{color:var(--gold2)}main{padding:82px 0 105px}.layout{display:grid;grid-template-columns:.82fr 1.18fr;gap:72px;align-items:start}.eyebrow{margin:0;color:var(--gold);font:700 .7rem/1.4 ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.15em;text-transform:uppercase}h1{font-size:clamp(3.2rem,6.7vw,6.2rem);line-height:.91;letter-spacing:-.064em;margin:19px 0 25px}h1 span{display:block;color:var(--gold)}.lead{color:var(--muted);font-size:1.06rem;max-width:540px}.help{margin-top:35px;padding-top:24px;border-top:1px solid var(--line)}.help strong{display:block;margin-bottom:6px}.help p{color:var(--muted);font-size:.9rem;margin:0}.card{padding:34px;border:1px solid var(--line);border-radius:18px;background:rgba(20,21,21,.94);box-shadow:0 34px 90px rgba(0,0,0,.32)}.grid{display:grid;grid-template-columns:1fr 1fr;gap:17px}.field{display:flex;flex-direction:column;gap:8px}.full{grid-column:1/-1}label{color:#c7c2b8;font:700 .68rem/1.3 ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.075em;text-transform:uppercase}input,select,textarea{width:100%;border:1px solid #393934;border-radius:8px;background:#0d0e0e;color:var(--text);font:inherit;padding:13px 14px}textarea{min-height:164px;resize:vertical}input:focus,select:focus,textarea:focus{outline:2px solid rgba(226,182,83,.24);border-color:var(--gold)}button{width:100%;min-height:52px;margin-top:19px;border:1px solid var(--gold);border-radius:8px;background:var(--gold);color:#16130c;font:800 1rem Inter,"Segoe UI",system-ui,sans-serif;cursor:pointer}button:hover{background:var(--gold2)}button:disabled{opacity:.62;cursor:wait}.note{text-align:center;color:#77756f;font-size:.76rem;margin:12px 0 0}.status{display:none;margin-top:18px;padding:16px 18px;border:1px solid var(--line);border-radius:8px;background:#0c0d0d}.status.visible{display:block}.status strong{display:block;margin-bottom:4px}.status p{margin:0;color:var(--muted)}.status.error p{color:#ef9d89}.trap{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;overflow:hidden!important}footer{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding:28px 0 44px;color:#77756f;font-size:.78rem}footer a:hover{color:var(--gold2)}@media(max-width:820px){main{padding-top:58px}.layout{grid-template-columns:1fr;gap:34px}h1{font-size:clamp(3.2rem,15vw,5rem)}}@media(max-width:600px){.wrap{width:min(calc(100% - 28px),var(--max))}.nav{height:70px}.grid{grid-template-columns:1fr}.full{grid-column:auto}.card{padding:22px}footer{display:block}footer div:last-child{margin-top:7px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="https://www.masterstudio2.com/">MASTER<span>STUDIO2</span></a>
+      <a class="back" href="https://www.masterstudio2.com/">← Back to MasterStudio2</a>
+    </nav>
+    <main>
+      <div class="layout">
+        <section>
+          <p class="eyebrow">Support / Contact</p>
+          <h1>Let’s get your sound <span>moving.</span></h1>
+          <p class="lead">Questions about the trial, the full version, an order, or the mastering workflow? Send the details and we’ll reply with a clear answer.</p>
+          <div class="help"><strong>Order support</strong><p>If your question is about a purchase, include the email or receipt number used at checkout. Never send payment-card information.</p></div>
+        </section>
+        <form class="card" id="contact-form">
+          <div class="grid">
+            <div class="field"><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required></div>
+            <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required></div>
+            <div class="field full"><label for="subject">What can we help with?</label><select id="subject" name="subject" required><option value="Product question">Product question</option><option value="Technical support">Technical support</option><option value="Trial question">Trial question</option><option value="Order or download help">Order or download help</option><option value="Refund question">Refund question</option><option value="Licensing or source code">Licensing or source code</option><option value="Other">Other</option></select></div>
+            <div class="field full"><label for="order">Order email or receipt number <span>(optional)</span></label><input id="order" name="order" autocomplete="off" placeholder="Only if this is about a purchase"></div>
+            <div class="field full"><label for="message">Message</label><textarea id="message" name="message" placeholder="Tell us what happened, what you expected, and any error message you saw." required></textarea></div>
+            <div class="trap" aria-hidden="true"><label for="website-confirm">Leave blank</label><input id="website-confirm" name="website_confirm" tabindex="-1" autocomplete="off"></div>
+          </div>
+          <button id="send" type="submit">Send message</button>
+          <p class="note">Your message goes directly to the team behind MasterStudio2.</p>
+          <div class="status" id="status" aria-live="polite" tabindex="-1"><strong id="status-title"></strong><p id="status-text"></p></div>
+        </form>
+      </div>
+    </main>
+    <footer><div>© MasterStudio2 · A 3rdBioAI Inc. product</div><div><a href="https://www.masterstudio2.com/">Home</a> · <a href="https://github.com/AwarenessLiteracy/masterstudio2">Source code</a></div></footer>
+  </div>
+  <script>
+    const form=document.querySelector('#contact-form'),button=document.querySelector('#send'),status=document.querySelector('#status'),title=document.querySelector('#status-title'),text=document.querySelector('#status-text');
+    form.addEventListener('submit',async event=>{event.preventDefault();button.disabled=true;button.textContent='Sending…';status.classList.remove('visible','error');const data=Object.fromEntries(new FormData(form));try{const response=await fetch('/api/contact',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(data)});const result=await response.json();if(!response.ok||!result.ok)throw new Error(result.error||'We could not send your message.');title.textContent='Message sent.';text.textContent=`Thanks, ${data.name}. We received your message and will reply to ${data.email}.`;status.classList.add('visible');form.reset();status.focus()}catch(error){title.textContent='Your message was not sent.';text.textContent=error.message||'Please try again.';status.classList.add('visible','error')}finally{button.disabled=false;button.textContent='Send message'}});
+  </script>
+</body>
+</html>
